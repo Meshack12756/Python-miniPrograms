@@ -38,5 +38,5 @@ for question, answer in shuffled_questions:
         print("Sorry! You have used all your attempts! Game Over!")
         break
       
-print(f"Thank you for trying our quiz game. You have attained {total} points!")
+print(f"Thank you for your time to play our quiz game. You have attained {total} points!")
 
