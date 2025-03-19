@@ -3,7 +3,7 @@ import time
 
 lights = [
     ('Green', 2),
-    ('Yellow', 0.5),
+    ('Yellow', 0.9),
     ('Red', 2)
 ]
 
