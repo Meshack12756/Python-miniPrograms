@@ -2,7 +2,7 @@ import time
 
 password = input("Enter Password: ")
 start = time.time()
-chars = "ABCDEFGHIJKLMNabcdeOPQRSTUVWfghijklm*()_+|}{:?><nopqrstuXYZvwxyz!@#$%^&"
+chars = "ABCDEFGHIJKLMNabcdeOPQRSTUVWfghijklm*()_+|}{:?><nopqrstuXYZvwxyz!@#$%^&1234567890"
 guess = []
 for val in range(1, 51):
     a = [i for i in chars]
