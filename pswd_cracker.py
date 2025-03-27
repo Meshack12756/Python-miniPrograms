@@ -15,4 +15,4 @@ end = time.time()
 clock = str(end - start)
 
 print("Your password: " + password)
-print("Time taken: " + clock)
+print("Time taken to crack: " + clock)
