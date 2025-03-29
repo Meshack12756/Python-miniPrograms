@@ -17,11 +17,11 @@ def submit():
 window = tk.Tk()
 
 #Creating Tkinter and entry boxes
-label_a = tk.Label(text = "Please Enter desired loan amount: ")
+label_a = tk.Label(text = "Please Input the desired loan amount: ")
 label_a.pack()
 entry_a = tk.Entry()
 entry_a.pack()
-label_b = tk.Label(text = "Please Enter the loan term: ")
+label_b = tk.Label(text = "Please Input the loan term: ")
 label_b.pack()
 entry_b = tk.Entry()
 entry_b.pack()
