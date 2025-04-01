@@ -1,9 +1,9 @@
 def deposit_cash():
-  return cash
+  return 
 def withdraw_cash():
-  return withdraw 
+  return 
 def check_balance():
-  return balance
+  return 
 def main():
   if __name__ = __main__:
     return main
