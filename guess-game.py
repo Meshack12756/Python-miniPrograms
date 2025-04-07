@@ -6,7 +6,7 @@ while True:
     if user_number.isapha():
         print("Error!! Please input an integer.")
     elif user_number == random_number:
-        print("Correct! You guessed the right number.")
+        print("Correct! You guessed the correct number.")
         break
     elif user_number > random_number:
         print("Too High!!")
