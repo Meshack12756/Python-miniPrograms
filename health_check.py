@@ -13,6 +13,6 @@ def check_cpu_usage():
     return usage > 75
 
 if not check_disk_usage("/") or not check_cpu_usage():
-    print("Your PC needs REAL System check!!")
+    print("Your PC needs REAL System check!! Consider a clean up!!")
 else:
-    print("Your PC is Healthy and REAL good!!")
+    print("Your PC is Healthy and REALLY good!!")
